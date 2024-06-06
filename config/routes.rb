@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  resources :standups
 
+  get 'dates/:date', to: 'dates#update', as: 'update_date'
+  
   devise_for :users, controllers: { registrations: "registrations" }
   resource :accounts
 

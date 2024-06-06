@@ -58,6 +58,7 @@ gem 'immutable-struct'
 
 gem 'sidekiq'
 gem 'sinatra', require: nil
+gem "rails_heroicon"
 
 gem 'gravatar_image_tag'
 

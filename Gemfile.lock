@@ -213,6 +213,9 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails_heroicon (2.2.0)
+      actionview
+      railties
     railties (7.0.8.3)
       actionpack (= 7.0.8.3)
       activesupport (= 7.0.8.3)
@@ -341,6 +344,7 @@ DEPENDENCIES
   rack-cors
   rails (~> 7.0.8, >= 7.0.8.1)
   rails-controller-testing
+  rails_heroicon
   redis (~> 4.0)
   rolify
   rspec-rails
